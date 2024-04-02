@@ -120,7 +120,8 @@ main{
     header{
         padding: 20px;
     }
-        nav
+        nav,
+        .fact-card-container
         {
             flex-direction:column ;
         }
@@ -130,6 +131,9 @@ main{
         .team{
             flex-direction:column ;
         }
+        .fact-card-container{
+            gap: 20px;
+        }
     }
     @media screen and (min-width: 576px) and (max-width:960px) {
         header{
@@ -137,11 +141,12 @@ main{
 
         }
         nav,
-        .team-content
+        .team-content,
+        .fact-card-container
         {
             flex-direction: column;
         }
-        
+       
     }
     .para-fact{
         color: #727272;
