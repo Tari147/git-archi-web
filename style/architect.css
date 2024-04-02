@@ -118,4 +118,10 @@ main{
         }
         
     }
-    
+    .para-fact{
+        color: #727272;
+    }
+    .facts-heading{
+        color: #131313;
+        font-weight: 700;
+    }
